@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Jumi" />
-    <meta name="descirption" content="우주에서 가장 뛰어난 AI 개발자" />
+    <meta name="description" content="우주에서 가장 뛰어난 AI 개발자" />
     <link rel="shortcut icon" href="./images/cat.ico" type="images/x-icon" />
     <title>Jumi&#39;s Website</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="style.css" />
     <script
       src="https://kit.fontawesome.com/133260cff9.js"
       crossorigin="anonymous"
@@ -22,12 +22,12 @@
       </div>
       <nav class="header__nav">
         <ul class="header__menu">
-          <li><a href="#home" class="header__menu__item active">홈으로</a></li>
-          <li><a href="#about" class="header__menu__item">Jumi</a></li>
-          <li><a href="#skills" class="header__menu__item">기술</a></li>
-          <li><a href="#work" class="header__menu__item">포트폴리오</a></li>
-          <li><a href="#license" class="header__menu__item">자격증</a></li>
-          <li><a href="#contact" class="header__menu__item">연락처</a></li>
+          <li><button id='to_home' class="header__menu__item">홈으로</button></li>
+          <li><button id="to_about" class="header__menu__item">Jumi</button></li>
+          <li><button id="to_skills" class="header__menu__item">기술</button></li>
+          <li><button id="to_work" class="header__menu__item">포트폴리오</button></li>
+          <li><button id="to_license" class="header__menu__item">자격증</button></li>
+          <li><button id="to_contact" class="header__menu__item">연락처</button></li>
         </ul>
       </nav>
     </header>
@@ -47,7 +47,7 @@
       <!-- about -->
       <section id="about" class="section max-container">
         <h2 class="title">Jumi</h2>
-        <p class="descirption">
+        <p class="description">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque autem
           doloremque eligendi dolor, voluptatum laboriosam repellendus est amet
           nulla aliquam voluptatibus ducimus fugit, deserunt totam harum quis
@@ -337,13 +337,13 @@
       <!-- license -->
       <section id="license" class="section max-container">
         <h2 class="title">자격증</h2>
-        <p class="descirption">국가 기술 자격증</p>
+        <p class="description">국가 기술 자격증</p>
         <ul class="licenses">
           <li class="license">
             <img class="license__img" src="./images/sw.png" alt="" />
             <div class="license__bubble">
               <p><a class="license__bubble__name" href="#">산업인력공단</a></p>
-              <p">
+              <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
                 repellendus in praesentium quam perferendis? Ex aperiam minus
                 nesciunt inventore maxime porro deleniti cumque maiores quisquam
@@ -400,5 +400,6 @@
         <p>&copy; Jumi All rights reserved</p>
       </div>
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>
