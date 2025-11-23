@@ -337,7 +337,16 @@ button {
   position: relative;
   border-radius: 8px;
   overflow: hidden;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity .4s ease, transform .4s ease;
 }
+
+.project.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 
 .project__img {
   width: 100%;
